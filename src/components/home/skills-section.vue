@@ -40,7 +40,7 @@
 
 <style scoped>
 section {
-	@apply md:px-28 px-5 relative flex flex-col justify-center font-bold;
+	@apply md:px-28 px-5 py-5 relative flex flex-col justify-center font-bold;
 	min-height: 80vh;
 }
 
