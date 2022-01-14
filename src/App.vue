@@ -1,32 +1,41 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+	<div id="app">
+		<app-bar></app-bar>
+		<router-view />
+	</div>
 </template>
+<script>
+import appBar from './components/app-bar.vue'
+export default {
+	components: {
+		'app-bar': appBar,
+	},
 
+	mounted() {
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault()
+
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth',
+				})
+			})
+		})
+	},
+}
+</script>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+	@apply bg-rich-black min-h-screen text-cultured;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 
-#nav {
-  padding: 30px;
+.red {
+	@apply text-crimson;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.blue {
+	@apply text-han-blue;
 }
 </style>
