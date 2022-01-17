@@ -1,0 +1,56 @@
+{
+  "id": "1",
+  "title": "Remove duplicates from array.",
+  "secondaryTitle": "",
+  "publishDate": "15 Jan 2022",
+  "image": "",
+  "content": [
+    {
+      "title": "",
+      "body": [
+        {
+          "type": "text",
+          "content": "Some times we ran into problems where we need some sort of uniuqe values in an array, removing duplicates values from an array could be a little bit tricky, so today we will discuss how to remove duplicates from an array."
+        },
+        {
+          "type": "text",
+          "content": "There are several ways to remove duplicates from an array, but first of all we need to create an array with some duplicates items in it."
+        },
+        {
+          "type": "code",
+          "language": "javascript",
+          "title": "Define an array with some duplicates items in it.",
+          "content": "// array with some duplicates\nconst array = [1, 2, 4, 4, 2, 5, 6, 7, 9, 9]"
+        },
+        {
+          "type": "text",
+          "content": "So, to remove the duplicates, we can use one of the following methods:"
+        }
+      ]
+    },
+    {
+      "title": "00. Using the Set object",
+      "body": [
+        {
+          "type": "text",
+          "content": "The goal here is to create a Set with the array data we have, and then create an array with the values of the Set."
+        },
+        {
+          "type": "text",
+          "content": "Since the Set only keeps unique values, we can use the Set object to create an array with the unique values, so the Set will remove the duplicates for us."
+        },
+        {
+          "type": "code",
+          "language": "javascript",
+          "title": "Create a Set with the array data.",
+          "content": "// array with some duplicates\nconst array = [1, 2, 4, 4, 2, 5, 6, 7, 9, 9]\n\nconst unique = [...new Set(array)]"
+        },
+        {
+          "type": "text",
+          "content": "here we used the "
+        }
+      ]
+    }
+  ],
+  "tags": ["test-1", "test-2", "test-3", "test-4", "test-5", "test-6", "test-7"]
+}
