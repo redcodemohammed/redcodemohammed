@@ -20,7 +20,7 @@ export default {
         projects: [
             { id: 1, name: 'Turtanu.com', link: 'https://turtanu.com/' },
             { id: 0, name: 'VIP Veranda', link: 'https://vip-veranda.nl/' },
-            { id: 2, name: 'My website', link: 'https://mohammed.dev/' }
+            { id: 2, name: 'My website', link: '/' }
         ]
     })
 }
