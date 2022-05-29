@@ -1,0 +1,81 @@
+<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <rect x="0" y="0" width="900" height="600" fill="#16161a"></rect>
+  <defs>
+    <linearGradient id="grad1_0" x1="33.3%" y1="100%" x2="100%" y2="0%">
+      <stop offset="20%" stop-color="#7f5af0" stop-opacity="1"></stop>
+      <stop offset="80%" stop-color="#7f5af0" stop-opacity="1"></stop>
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad1_1" x1="33.3%" y1="100%" x2="100%" y2="0%">
+      <stop offset="20%" stop-color="#7f5af0" stop-opacity="1"></stop>
+      <stop offset="80%" stop-color="#3b3b81" stop-opacity="1"></stop>
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad1_2" x1="33.3%" y1="100%" x2="100%" y2="0%">
+      <stop offset="20%" stop-color="#16161a" stop-opacity="1"></stop>
+      <stop offset="80%" stop-color="#3b3b81" stop-opacity="1"></stop>
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad2_0" x1="0%" y1="100%" x2="66.7%" y2="0%">
+      <stop offset="20%" stop-color="#7f5af0" stop-opacity="1"></stop>
+      <stop offset="80%" stop-color="#7f5af0" stop-opacity="1"></stop>
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad2_1" x1="0%" y1="100%" x2="66.7%" y2="0%">
+      <stop offset="20%" stop-color="#3b3b81" stop-opacity="1"></stop>
+      <stop offset="80%" stop-color="#7f5af0" stop-opacity="1"></stop>
+    </linearGradient>
+  </defs>
+  <defs>
+    <linearGradient id="grad2_2" x1="0%" y1="100%" x2="66.7%" y2="0%">
+      <stop offset="20%" stop-color="#3b3b81" stop-opacity="1"></stop>
+      <stop offset="80%" stop-color="#16161a" stop-opacity="1"></stop>
+    </linearGradient>
+  </defs>
+  <!-- <g transform="translate(900, 600)">
+    <path
+      d="M-324.5 0C-312.6 -32 -300.8 -64.1 -290.1 -94.3C-279.4 -124.4 -269.9 -152.7 -255.6 -185.7C-241.4 -218.7 -222.4 -256.4 -190.7 -262.5C-159 -268.6 -114.6 -243.2 -80.7 -248.2C-46.7 -253.3 -23.4 -288.9 0 -324.5L0 0Z"
+      fill="#27294b"></path>
+    <path
+      d="M-216.3 0C-208.4 -21.4 -200.5 -42.7 -193.4 -62.8C-186.3 -83 -179.9 -101.8 -170.4 -123.8C-160.9 -145.8 -148.3 -170.9 -127.2 -175C-106 -179.1 -76.4 -162.1 -53.8 -165.5C-31.2 -168.9 -15.6 -192.6 0 -216.3L0 0Z"
+      fill="#584cb8"></path>
+    <path
+      d="M-108.2 0C-104.2 -10.7 -100.3 -21.4 -96.7 -31.4C-93.1 -41.5 -90 -50.9 -85.2 -61.9C-80.5 -72.9 -74.1 -85.5 -63.6 -87.5C-53 -89.5 -38.2 -81.1 -26.9 -82.7C-15.6 -84.4 -7.8 -96.3 0 -108.2L0 0Z"
+      fill="#7f5af0"></path>
+  </g> -->
+  <g transform="translate(0, 50)">
+    <path fill="#27294b">
+      <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="4s" values="
+        M324.5 0C285.3 24.7 246 49.3 228.3 74.2C210.5 99 214.2 124 210.3 152.8C206.5 181.6 195.2 214.2 176.3 242.7C157.4 271.2 130.9 295.7 100.3 308.6C69.6 321.6 34.8 323 0 324.5L0 0Z;
+        M324.5 0C285.8 26 247.2 52.1 228.3 74.2C209.3 96.3 210.2 114.5 212 154C213.8 193.5 216.6 254.5 190.7 262.5C164.9 270.6 110.4 225.8 73.9 227.3C37.3 228.8 18.6 276.7 0 324.5L0 0Z;
+        M324.5 0C285.3 24.7 246 49.3 228.3 74.2C210.5 99 214.2 124 210.3 152.8C206.5 181.6 195.2 214.2 176.3 242.7C157.4 271.2 130.9 295.7 100.3 308.6C69.6 321.6 34.8 323 0 324.5L0 0Z;
+      ">
+      </animate>
+    </path>
+
+    <path d="" fill="#584cb8">
+      <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="5s" values="
+        M216.3 0C190.2 16.4 164 32.9 152.2 49.4C140.3 66 142.8 82.7 140.2 101.9C137.7 121.1 130.2 142.8 117.6 161.8C105 180.8 87.3 197.1 66.9 205.7C46.4 214.4 23.2 215.4 0 216.3L0 0Z;
+        M216.3 0C190.6 17.4 164.8 34.7 152.2 49.4C139.6 64.2 140.1 76.3 141.3 102.7C142.5 129 144.4 169.6 127.2 175C109.9 180.4 73.6 150.5 49.2 151.5C24.9 152.5 12.4 184.4 0 216.3L0 0Z;
+        M216.3 0C190.2 16.4 164 32.9 152.2 49.4C140.3 66 142.8 82.7 140.2 101.9C137.7 121.1 130.2 142.8 117.6 161.8C105 180.8 87.3 197.1 66.9 205.7C46.4 214.4 23.2 215.4 0 216.3L0 0Z;
+
+      ">
+
+      </animate>
+    </path>
+    <path fill="#7f5af0">
+      <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="3s" values="
+        M108.2 0C95.1 8.2 82 16.4 76.1 24.7C70.2 33 71.4 41.3 70.1 50.9C68.8 60.5 65.1 71.4 58.8 80.9C52.5 90.4 43.6 98.6 33.4 102.9C23.2 107.2 11.6 107.7 0 108.2L0 0Z;
+        M108.2 0C95.3 8.7 82.4 17.4 76.1 24.7C69.8 32.1 70.1 38.2 70.7 51.3C71.3 64.5 72.2 84.8 63.6 87.5C55 90.2 36.8 75.3 24.6 75.8C12.4 76.3 6.2 92.2 0 108.2L0 0Z;
+        M108.2 0C95.1 8.2 82 16.4 76.1 24.7C70.2 33 71.4 41.3 70.1 50.9C68.8 60.5 65.1 71.4 58.8 80.9C52.5 90.4 43.6 98.6 33.4 102.9C23.2 107.2 11.6 107.7 0 108.2L0 0Z;
+      ">
+
+      </animate>
+    </path>
+  </g>
+</svg>

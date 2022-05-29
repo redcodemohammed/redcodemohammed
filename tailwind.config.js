@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         'han-blue': '#4a65c2',
         'eerie-black': '#171717',
-        'rich-black': '#121212',
+        'rich-black': '#16161a',
         onyx: '#444444',
         crimson: '#DA0037',
         cultured: '#EDEDED',
