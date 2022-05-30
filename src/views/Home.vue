@@ -4,6 +4,7 @@
     <!-- <lineSection></lineSection> -->
     <servicesSection></servicesSection>
     <!-- <lineSection></lineSection> -->
+    <!-- <projectsSection></projectsSection> -->
     <aboutSection></aboutSection>
     <!-- <lineSection></lineSection> -->
     <!-- <experienceSection></experienceSection> -->
@@ -19,6 +20,7 @@
 import heroSection from '@/components/home/hero-section.vue';
 import aboutSection from '@/components/home/about-section.vue';
 // import experienceSection from '@/components/home/experience-section.vue';
+// import projectsSection from '@/components/home/projects-section.vue';
 import skillsSection from '@/components/home/skills-section.vue';
 import contactSection from '@/components/home/contact-section.vue';
 import servicesSection from '@/components/home/services-section.vue';
@@ -29,6 +31,7 @@ export default {
     heroSection,
     aboutSection,
     // experienceSection,
+    // projectsSection,
     skillsSection,
     contactSection,
     servicesSection

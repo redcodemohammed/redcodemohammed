@@ -35,7 +35,7 @@
           <span class="font-bold text-xl" style="color: #fffffe">Backend Development</span>
           <p style="color: #94a1b2">
             I use <a href="https://nestjs.com/" target="_blank" class="font-bold" style="color: #ff0023">Nest.js</a> and
-            <a href="https://www.mongodb.com/" target="_blank" class="font-bold" style="color: #506973">Mongodb</a> on the backend, with the
+            <a href="https://www.mongodb.com/" target="_blank" class="font-bold" style="color: #1d9b52">Mongodb</a> on the backend, with the
             help of <a class="font-bold" href="https://www.typescriptlang.org" target="_blank" style="color: #3066c9">Typescript</a> and
             <a href="https://nodejs.org/" target="_blank" class="font-bold" style="color: #48b161">Node.js</a>, I can build your backend
             with making sure it's fast, secure and scalable.
