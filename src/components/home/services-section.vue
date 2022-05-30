@@ -38,7 +38,7 @@
             <a href="https://www.mongodb.com/" target="_blank" class="font-bold" style="color: #1d9b52">Mongodb</a> on the backend, with the
             help of <a class="font-bold" href="https://www.typescriptlang.org" target="_blank" style="color: #3066c9">Typescript</a> and
             <a href="https://nodejs.org/" target="_blank" class="font-bold" style="color: #48b161">Node.js</a>, I can build your backend
-            with making sure it's fast, secure and scalable.
+            and making sure it's fast, secure and scalable.
           </p>
         </div>
         <!-- mobile apps card -->
